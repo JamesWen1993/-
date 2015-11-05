@@ -1,0 +1,25 @@
+//
+//  Common.pch
+//  人人社交
+//
+//  Created by mac on 15/10/9.
+//  Copyright (c) 2015年 huiwen. All rights reserved.
+//
+//#import <UIKit/UIKit.h>
+
+#ifndef _____Common_pch
+#define _____Common_pch
+
+#define kScreenWidth   [UIScreen mainScreen].bounds.size.width
+#define kScreenHeight  [UIScreen mainScreen].bounds.size.height
+
+#define kApplicationId @"VKLxKOyoSV6njNMOaV8IAhEn"
+#define kClientKey @"RVRLGH4sezKpaOxMAXbIHoJD"
+
+//系统版本
+#define kVersion   [[UIDevice currentDevice].systemVersion doubleValue]
+
+//API Key
+#define kApiKey  @"da80d4b9dc03390e75e99d291cc2444d"
+
+#endif
